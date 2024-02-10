@@ -1,0 +1,101 @@
+article {
+    width: 400px;
+    background: #fff;
+    font-size: 18px;
+    max-height: 270px;
+    overflow: hidden;
+    transition: max-height 1s;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+article.abierto {
+    max-height: 1000px;
+}
+
+.btnMostrar{
+    background: #752a2a;
+    color: #fff;
+    padding: 0.6rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #180303;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+/*===========================================================*/
+/* Estilos para el primer ejemplo mouseover */
+#Cuadrado {
+    background: #FFD1DC;
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+#Cuadrado {
+    position: relative;
+    display: inline-block;
+    border: 2px solid black; 
+}
+
+#colores {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #8d7777;
+}
+
+
+#colores a {
+    margin-right: 5px; 
+}
+
+#Cuadrado {
+    margin-top: 10px; 
+}
+
+/* Estilos para el segundo ejemplo mouseover */
+#container {
+    text-align: center; 
+}
+
+/*Ëstilos para focus*/
+#imagen:focus {
+    border: 2px solid red; /* Cambia el color del borde al enfocar */
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: nowrap; /* Evitar que los elementos se envuelvan a una nueva línea */
+    gap: 10px; /* Espacio entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+input, img, p {
+    flex: 1; /* Los elementos ocupan todo el espacio disponible */
+}
