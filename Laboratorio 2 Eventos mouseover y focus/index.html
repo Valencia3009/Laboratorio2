@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h2>EJERCICIOS MOUSEOVER</h2>
+            </div>
+        </div>
+    
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div id="Cuadrado" class="mr-5">
+                    <!--Ejercicio 1-->
+                    <div id="colores">
+                        <a href="#" id="rojo" class="btn btn-danger mb-2">ROJO</a>
+                        <a href="#" id="verde" class="btn btn-success mb-2">VERDE</a>
+                    </div>
+                    <p>El evento mouseover llama a la función pintar cuando el mouse pasa por cada palabra cambiando el color del cuadrado y cuando el mouse sale de la palabra se activa el mouseout para que regrese al color predeterminado</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="container">
+                    <!--Ejercicio 2-->
+                    <img id="img1" width="200" height="200" src="img/img1.png" class="img-fluid">
+                    <p class="mt-3">El evento mouseover se activa cuando el mouse se coloca sobre la imagen llamando a la función cambiar, que cambia la imagen por otra y el evento mouseout se activa cuando el puntero sale de la imagen llamando a la función Restaurar y así regresando a la imagen original</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="cambiar" class="mr-5">
+                    <div id="colores">
+                        <!--Ejercicio 3-->
+                        <div id="container-imagen">
+                            <img id="imagenMostrada" width="200" height="200" src="img/img6.png" class="img-fluid">
+                            <p class="mt-3">El evento mouseover se activa cuando el mouse pasa por cada nombre y así llama a la función cambiarimagen, y cambia las imágenes correspondiente al nombre.</p>
+                        </div>
+                        
+                        <a href="#" id="sirena" class="btn btn-danger mb-2">SIRENA</a>
+                        <a href="#" id="caballito" class="btn btn-success mb-2">CABALLITO</a>
+                        <a href="#" id="estrella" class="btn btn-success mb-2">ESTRELLA</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr size="8px" color="sky blue" />
+    <!-- EVENTO FOCUS -->
+    <h1><center>EJERCICOS FOCUS</center></h1>
+    <div class="container1">
+        <!--Ejercicio 1-->
+        <input type="text" id="text1" name="text1" size="70" value="El evento focus se activa cuando presionamos o pasamos encima del campo cambiando el color de las letras para enfocar así la atención.">
+         <!--Ejercicio 1-->
+        <img src="img/img7.png" alt="Imagen predeterminada" id="imagen" tabindex="0">
+          <!--Ejercicio 1-->
+        <p id="texto" tabindex="0">El evento focus se activará cuando se presione el texto haciendo que cambie el color de fondo </p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
